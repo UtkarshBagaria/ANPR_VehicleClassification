@@ -1,0 +1,8 @@
+path: D:\Sem-5\LAB\ANPR\yolov5\data\pre960  # dataset root dir
+train: train\images\ # train images (relative to 'path') 128 images
+val: train\images\  # val images (relative to 'path') 128 images
+test: test\images\  # test images (optional)
+
+# Classes
+names:
+  0: number_plate
