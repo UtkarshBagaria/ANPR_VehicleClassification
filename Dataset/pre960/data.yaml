@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['licence']
+
+roboflow:
+  workspace: anpr-07da8
+  project: milab1
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/anpr-07da8/milab1/dataset/5
