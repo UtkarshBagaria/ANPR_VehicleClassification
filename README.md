@@ -27,14 +27,14 @@ Step 1: Download the dataset folder which contains the pre-processed dataset and
 Step 2: Make a .yaml file containing the path of the dataset folder and put the yaml file in the data folder for example
 
 path: D:\Sem-5\LAB\ANPR\yolov5\data\pre960  # dataset root dir 
-train: train\images\ # train images (relative to 'path') 128 images
-val: train\images\  # val images (relative to 'path') 128 images
+train: train\images\ # train images (relative to 'path') 
+val: train\images\  # val images (relative to 'path') 
 test: test\images\  # test images (optional)
 
 # Classes
 names:
   0: number_plate
-   
+
 Step 3: Update the path of the .yaml file in the tutorial.ipynb in the training cell
 Step 4: Run the training cell
 Step 5: Update the path of the trained model in the Detect cell the path to the weights will be printed out by the training cell
